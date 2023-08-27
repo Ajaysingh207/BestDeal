@@ -1,0 +1,863 @@
+{
+  "maincategory": [
+    {
+      "id": 0
+    },
+    {
+      "name": "Kids",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "Female"
+    },
+    {
+      "id": 3,
+      "name": "Male"
+    }
+  ],
+  "subcategory": [
+    {
+      "id": 0
+    },
+    {
+      "name": "Trouser",
+      "id": 1
+    },
+    {
+      "name": "Tshirt",
+      "id": 2
+    },
+    {
+      "name": "Shirt",
+      "id": 3
+    },
+    {
+      "name": "Jeans",
+      "id": 4
+    }
+  ],
+  "brand": [
+    {
+      "id": 0
+    },
+    {
+      "id": 1,
+      "name": "Tommy Hilfiger",
+      "pic": "tommy-hilfiger.png"
+    },
+    {
+      "id": 2,
+      "name": "Nike",
+      "pic": "nike.png"
+    },
+    {
+      "id": 3,
+      "name": "Polo",
+      "pic": "U.S.-Polo-Assn-Logo.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Gucci",
+      "pic": "gucci.png"
+    },
+    {
+      "id": 5,
+      "name": "Zara",
+      "pic": "zara.png"
+    },
+    {
+      "id": 6,
+      "name": "Mufti",
+      "pic": "mufti.png"
+    },
+    {
+      "id": 7,
+      "name": "Adidas",
+      "pic": "adidas.png"
+    }
+  ],
+  "user": [
+    {
+      "id": 0
+    },
+    {
+      "name": "Nitin Chauhan",
+      "username": "nitin",
+      "email": "vishankchauhan@gmail.com",
+      "phone": "9873848046",
+      "password": "Nitin@123",
+      "role": "Buyer",
+      "id": 1,
+      "address": "A-43 Sector 16 Noida Behind MacD",
+      "pin": "201301",
+      "city": "Noida",
+      "state": "UP",
+      "pic": "p2.jpg"
+    },
+    {
+      "name": "Ajay singh",
+      "username": "ajaysingh",
+      "email": "vijayrawat1007@gmail.com",
+      "phone": "7451826877",
+      "password": "787898",
+      "role": "Admin",
+      "id": 2,
+      "pic": "p16.jpg"
+    },
+    {
+      "name": "rawatji",
+      "username": "rawatji",
+      "email": "ajayrawat0207@gmail.com",
+      "phone": "7895636139",
+      "password": "12345",
+      "role": "Buyer",
+      "id": 3
+    }
+  ],
+  "product": [
+    {
+      "id": 0
+    },
+    {
+      "id": 1,
+      "name": "Male Jeans Slim  Fit",
+      "maincategory": "Male",
+      "subcategory": "Jeans",
+      "brand": "Mufti",
+      "color": "Black",
+      "size": "36",
+      "baseprice": "7800",
+      "discount": "78",
+      "finalprice": 1716,
+      "stock": "In Stock",
+      "description": "This is Sample Product",
+      "pic1": "p16.jpg",
+      "pic2": "p1.jpg",
+      "pic3": "p2.jpg",
+      "pic4": "p7.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Male jeans Adidas",
+      "maincategory": "Male",
+      "subcategory": "Jeans",
+      "brand": "Adidas",
+      "color": "Black",
+      "size": "34",
+      "baseprice": "4500",
+      "discount": "45",
+      "finalprice": 2475,
+      "stock": "In Stack",
+      "description": "This is Sample Product",
+      "pic1": "p7.jpg",
+      "pic2": "p5.jpg",
+      "pic3": "p1.jpg",
+      "pic4": "p2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Male Jeans Black",
+      "maincategory": "Male",
+      "subcategory": "Jeans",
+      "brand": "Tommy Hilfiger",
+      "color": "Blue",
+      "size": "36",
+      "baseprice": "6500",
+      "discount": "65",
+      "finalprice": 2275,
+      "stock": "In Stock",
+      "description": "This is Sample Product",
+      "pic1": "p5.jpg",
+      "pic2": "p2.jpg",
+      "pic3": "p1.jpg",
+      "pic4": "p7.jpg"
+    },
+    {
+      "name": "Male Jeans Blue",
+      "maincategory": "Male",
+      "subcategory": "Jeans",
+      "brand": "Adidas",
+      "color": "Blue",
+      "size": "34",
+      "baseprice": "48700",
+      "discount": "87",
+      "finalprice": 6331,
+      "stock": "In Stock",
+      "description": "This is Sample Product",
+      "pic1": "p1.jpg",
+      "pic2": "p2.jpg",
+      "pic3": "p5.jpg",
+      "pic4": "p10.jpg",
+      "id": 4
+    },
+    {
+      "name": "Male Tshirt Polo",
+      "maincategory": "Male",
+      "subcategory": "Tshirt",
+      "brand": "Polo",
+      "color": "White",
+      "size": "MD",
+      "baseprice": "4500",
+      "discount": "80",
+      "finalprice": 900,
+      "stock": "In Stock",
+      "description": "This is Sample Product",
+      "pic1": "p2.jpg",
+      "pic2": "p15.jpg",
+      "pic3": "p24.jpg",
+      "pic4": "p29.jpg",
+      "id": 5
+    },
+    {
+      "name": "Male Shirt Nike",
+      "maincategory": "Male",
+      "subcategory": "Shirt",
+      "brand": "Nike",
+      "color": "Green Check",
+      "size": "XL",
+      "baseprice": "4500",
+      "discount": "90",
+      "finalprice": 450,
+      "stock": "In Stock",
+      "description": "This is Sample Product",
+      "pic1": "p25.jpg",
+      "pic2": "p26.jpg",
+      "pic3": "p40.jpg",
+      "pic4": "p38.jpg",
+      "id": 6
+    },
+    {
+      "name": "Male Tshirt Black Adidas",
+      "maincategory": "Male",
+      "subcategory": "Tshirt",
+      "brand": "Adidas",
+      "color": "Black",
+      "size": "XXL",
+      "baseprice": "15000",
+      "discount": "80",
+      "finalprice": 3000,
+      "stock": "In Stock",
+      "description": "This is Sample Product",
+      "pic1": "p3.jpg",
+      "pic2": "p51.jpg",
+      "pic3": "p52.jpg",
+      "pic4": "p49.jpg",
+      "id": 7
+    },
+    {
+      "name": "Male Trouser Polo",
+      "maincategory": "Male",
+      "subcategory": "Trouser",
+      "brand": "Polo",
+      "color": "Black",
+      "size": "34",
+      "baseprice": "8500",
+      "discount": "85",
+      "finalprice": 1275,
+      "stock": "In Stock",
+      "description": "This is Sample Product",
+      "pic1": "p10.jpg",
+      "pic2": "p11.jpg",
+      "pic3": "p41.jpg",
+      "pic4": "p44.jpg",
+      "id": 8
+    },
+    {
+      "name": "Female Jeans Slim Fit",
+      "maincategory": "Female",
+      "subcategory": "Jeans",
+      "brand": "Mufti",
+      "color": "Blue",
+      "size": "32",
+      "baseprice": "4500",
+      "discount": "45",
+      "finalprice": 2475,
+      "stock": "In Stock",
+      "description": "This is Sample Product",
+      "pic1": "p12.jpg",
+      "pic2": "p17.jpg",
+      "pic3": "p19.jpg",
+      "pic4": "p47.jpg",
+      "id": 9
+    },
+    {
+      "id": 10,
+      "name": "Female Jeans Mufti",
+      "maincategory": "Female",
+      "subcategory": "Jeans",
+      "brand": "Mufti",
+      "color": "Blue",
+      "size": "28",
+      "baseprice": "8580",
+      "discount": "80",
+      "finalprice": 1716,
+      "stock": "In Stock",
+      "description": "This is Sample Product",
+      "pic1": "p32.jpg",
+      "pic2": "p12.jpg",
+      "pic3": "p53.jpg",
+      "pic4": "p73.jpg"
+    },
+    {
+      "name": "Female Tshirt Adidas",
+      "maincategory": "Female",
+      "subcategory": "Tshirt",
+      "brand": "Adidas",
+      "color": "White",
+      "size": "MD",
+      "baseprice": "4500",
+      "discount": "45",
+      "finalprice": 2475,
+      "stock": "In Stock",
+      "description": "This is Sample Product",
+      "pic1": "p22.jpg",
+      "pic2": "p28.jpg",
+      "pic3": "p39.jpg",
+      "pic4": "p23.jpg",
+      "id": 11
+    },
+    {
+      "name": "Female Tshirt White Mufti",
+      "maincategory": "Female",
+      "subcategory": "Tshirt",
+      "brand": "Mufti",
+      "color": "White",
+      "size": "M",
+      "baseprice": "2500",
+      "discount": "85",
+      "finalprice": 375,
+      "stock": "In Stock",
+      "description": "This is Sample Product",
+      "pic1": "p23.jpg",
+      "pic2": "p28.jpg",
+      "pic3": "p19.jpg",
+      "pic4": "p6.jpg",
+      "id": 12
+    },
+    {
+      "name": "Female Shirt Gucci",
+      "maincategory": "Female",
+      "subcategory": "Shirt",
+      "brand": "Gucci",
+      "color": "White",
+      "size": "M",
+      "baseprice": "8585",
+      "discount": "25",
+      "finalprice": 6439,
+      "stock": "In Stock",
+      "description": "This is Sample Product",
+      "pic1": "p72.jpg",
+      "pic2": "p71.jpg",
+      "pic3": "p70.jpg",
+      "pic4": "p9.jpg",
+      "id": 13
+    },
+    {
+      "name": "Kids Jeans Tommy Hilfiger",
+      "maincategory": "Kids",
+      "subcategory": "Jeans",
+      "brand": "Tommy Hilfiger",
+      "color": "Black",
+      "size": "26",
+      "baseprice": "5000",
+      "discount": "50",
+      "finalprice": 2500,
+      "stock": "In Stock",
+      "description": "This is Sample Product",
+      "pic1": "p43.jpg",
+      "pic2": "p43.jpg",
+      "pic3": "p42.jpg",
+      "pic4": "p66.jpg",
+      "id": 14
+    },
+    {
+      "name": "Male Jeans",
+      "maincategory": "Male",
+      "subcategory": "Jeans",
+      "brand": "Adidas",
+      "color": "Black",
+      "size": "34",
+      "baseprice": "4500",
+      "discount": "45",
+      "finalprice": 2475,
+      "stock": "In Stock",
+      "description": "This is Sample Product",
+      "pic1": "p16.jpg",
+      "pic2": "p7.jpg",
+      "pic3": "p44.jpg",
+      "pic4": "p5.jpg",
+      "id": 15
+    },
+    {
+      "name": "Male Jeans Regular Fit",
+      "maincategory": "Male",
+      "subcategory": "Jeans",
+      "brand": "Adidas",
+      "color": "Blue",
+      "size": "34",
+      "baseprice": "8585",
+      "discount": "85",
+      "finalprice": 1288,
+      "stock": "In Stock",
+      "description": "This is Sample Product",
+      "pic1": "p44.jpg",
+      "pic2": "p7.jpg",
+      "pic3": "p2.jpg",
+      "pic4": "p11.jpg",
+      "id": 16
+    },
+    {
+      "name": "Male Jeans Ripped",
+      "maincategory": "Male",
+      "subcategory": "Jeans",
+      "brand": "Adidas",
+      "color": "Black",
+      "size": "32",
+      "baseprice": "9850",
+      "discount": "50",
+      "finalprice": 4925,
+      "stock": "In Stock",
+      "description": "This is Sample Product",
+      "pic1": "p41.jpg",
+      "pic2": "p10.jpg",
+      "pic3": "p2.jpg",
+      "pic4": "p1.jpg",
+      "id": 17
+    }
+  ],
+  "cart": [
+    {
+      "id": 0
+    },
+    {
+      "userid": "3",
+      "productid": 17,
+      "name": "Male Jeans Ripped",
+      "brand": "Adidas",
+      "color": "Black",
+      "size": "32",
+      "pic": "p41.jpg",
+      "price": 4925,
+      "qty": 1,
+      "total": 4925,
+      "id": 1
+    }
+  ],
+  "wishlist": [
+    {
+      "id": 0
+    },
+    {
+      "userid": "3",
+      "productid": 16,
+      "name": "Male Jeans Regular Fit",
+      "brand": "Adidas",
+      "color": "Blue",
+      "size": "34",
+      "pic": "p44.jpg",
+      "price": 1288,
+      "id": 1
+    },
+    {
+      "userid": "3",
+      "productid": 1,
+      "name": "Male Jeans Slim  Fit",
+      "brand": "Mufti",
+      "color": "Black",
+      "size": "36",
+      "pic": "p16.jpg",
+      "price": 1716,
+      "id": 2
+    },
+    {
+      "userid": "3",
+      "productid": 13,
+      "name": "Female Shirt Gucci",
+      "brand": "Gucci",
+      "color": "White",
+      "size": "M",
+      "pic": "p72.jpg",
+      "price": 6439,
+      "id": 3
+    }
+  ],
+  "checkout": [
+    {
+      "id": 0
+    },
+    {
+      "userid": null,
+      "Paymentmode": "COD",
+      "paymentstatus": "panding",
+      "orderstatus": "order is placed",
+      "subtotal": 0,
+      "shipping": 0,
+      "total": 0,
+      "products": [],
+      "id": 1
+    },
+    {
+      "userid": null,
+      "Paymentmode": "COD",
+      "paymentstatus": "panding",
+      "orderstatus": "order is placed",
+      "subtotal": 29018,
+      "shipping": 0,
+      "total": 29018,
+      "products": [
+        {
+          "userid": "1",
+          "productid": 15,
+          "name": "Male Jeans",
+          "brand": "Adidas",
+          "color": "Black",
+          "size": "34",
+          "pic": "p16.jpg",
+          "price": 2475,
+          "qty": 6,
+          "total": 14850,
+          "id": 5
+        },
+        {
+          "userid": "1",
+          "productid": 16,
+          "name": "Male Jeans Regular Fit",
+          "brand": "Adidas",
+          "color": "Blue",
+          "size": "34",
+          "pic": "p44.jpg",
+          "price": 1288,
+          "qty": 11,
+          "total": 14168,
+          "id": 6
+        }
+      ],
+      "id": 2
+    },
+    {
+      "userid": null,
+      "Paymentmode": "COD",
+      "paymentstatus": "panding",
+      "orderstatus": "order is placed",
+      "subtotal": 4925,
+      "shipping": 0,
+      "total": 4925,
+      "products": [
+        {
+          "userid": "1",
+          "productid": 17,
+          "name": "Male Jeans Ripped",
+          "brand": "Adidas",
+          "color": "Black",
+          "size": "32",
+          "pic": "p41.jpg",
+          "price": 4925,
+          "qty": 1,
+          "total": 4925,
+          "id": 5
+        }
+      ],
+      "id": 3
+    },
+    {
+      "userid": null,
+      "Paymentmode": "COD",
+      "paymentstatus": "panding",
+      "orderstatus": "order is placed",
+      "subtotal": 2475,
+      "shipping": 0,
+      "total": 2475,
+      "products": [
+        {
+          "userid": "1",
+          "productid": 2,
+          "name": "Male jeans Adidas",
+          "brand": "Adidas",
+          "color": "Black",
+          "size": "34",
+          "pic": "p7.jpg",
+          "price": 2475,
+          "qty": 1,
+          "total": 2475,
+          "id": 5
+        }
+      ],
+      "id": 4
+    },
+    {
+      "userid": null,
+      "Paymentmode": "COD",
+      "paymentstatus": "panding",
+      "orderstatus": "order is placed",
+      "subtotal": 1288,
+      "shipping": 0,
+      "total": 1288,
+      "products": [
+        {
+          "userid": "1",
+          "productid": 16,
+          "name": "Male Jeans Regular Fit",
+          "brand": "Adidas",
+          "color": "Blue",
+          "size": "34",
+          "pic": "p44.jpg",
+          "price": 1288,
+          "qty": 1,
+          "total": 1288,
+          "id": 5
+        }
+      ],
+      "id": 5
+    },
+    {
+      "userid": null,
+      "Paymentmode": "COD",
+      "paymentstatus": "panding",
+      "orderstatus": "order is placed",
+      "subtotal": 6213,
+      "shipping": 0,
+      "total": 6213,
+      "products": [
+        {
+          "userid": "1",
+          "productid": 17,
+          "name": "Male Jeans Ripped",
+          "brand": "Adidas",
+          "color": "Black",
+          "size": "32",
+          "pic": "p41.jpg",
+          "price": 4925,
+          "qty": 1,
+          "total": 4925,
+          "id": 5
+        },
+        {
+          "userid": "1",
+          "productid": 16,
+          "name": "Male Jeans Regular Fit",
+          "brand": "Adidas",
+          "color": "Blue",
+          "size": "34",
+          "pic": "p44.jpg",
+          "price": 1288,
+          "qty": 1,
+          "total": 1288,
+          "id": 6
+        }
+      ],
+      "id": 6
+    },
+    {
+      "userid": null,
+      "Paymentmode": "COD",
+      "paymentstatus": "panding",
+      "orderstatus": "order is placed",
+      "subtotal": 1288,
+      "shipping": 0,
+      "total": 1288,
+      "products": [
+        {
+          "userid": "1",
+          "productid": 16,
+          "name": "Male Jeans Regular Fit",
+          "brand": "Adidas",
+          "color": "Blue",
+          "size": "34",
+          "pic": "p44.jpg",
+          "price": 1288,
+          "qty": 1,
+          "total": 1288,
+          "id": 6
+        }
+      ],
+      "id": 7
+    },
+    {
+      "userid": null,
+      "Paymentmode": "COD",
+      "paymentstatus": "panding",
+      "orderstatus": "order is placed",
+      "subtotal": 6213,
+      "shipping": 0,
+      "total": 6213,
+      "products": [
+        {
+          "userid": "3",
+          "productid": 16,
+          "name": "Male Jeans Regular Fit",
+          "brand": "Adidas",
+          "color": "Blue",
+          "size": "34",
+          "pic": "p44.jpg",
+          "price": 1288,
+          "qty": 1,
+          "total": 1288,
+          "id": 4
+        },
+        {
+          "userid": "3",
+          "productid": 17,
+          "name": "Male Jeans Ripped",
+          "brand": "Adidas",
+          "color": "Black",
+          "size": "32",
+          "pic": "p41.jpg",
+          "price": 4925,
+          "qty": 1,
+          "total": 4925,
+          "id": 5
+        }
+      ],
+      "id": 8
+    },
+    {
+      "userid": null,
+      "Paymentmode": "COD",
+      "paymentstatus": "panding",
+      "orderstatus": "order is placed",
+      "subtotal": 1288,
+      "shipping": 0,
+      "total": 1288,
+      "products": [
+        {
+          "userid": "3",
+          "productid": 16,
+          "name": "Male Jeans Regular Fit",
+          "brand": "Adidas",
+          "color": "Blue",
+          "size": "34",
+          "pic": "p44.jpg",
+          "price": 1288,
+          "qty": 1,
+          "total": 1288,
+          "id": 1
+        }
+      ],
+      "id": 9
+    },
+    {
+      "userid": null,
+      "Paymentmode": "COD",
+      "paymentstatus": "panding",
+      "orderstatus": "order is placed",
+      "subtotal": 2475,
+      "shipping": 0,
+      "total": 2475,
+      "products": [
+        {
+          "userid": "3",
+          "productid": 15,
+          "name": "Male Jeans",
+          "brand": "Adidas",
+          "color": "Black",
+          "size": "34",
+          "pic": "p16.jpg",
+          "price": 2475,
+          "qty": 1,
+          "total": 2475,
+          "id": 1
+        }
+      ],
+      "id": 10
+    },
+    {
+      "userid": null,
+      "Paymentmode": "COD",
+      "paymentstatus": "panding",
+      "orderstatus": "order is placed",
+      "subtotal": 1288,
+      "shipping": 0,
+      "total": 1288,
+      "products": [
+        {
+          "userid": "3",
+          "productid": 16,
+          "name": "Male Jeans Regular Fit",
+          "brand": "Adidas",
+          "color": "Blue",
+          "size": "34",
+          "pic": "p44.jpg",
+          "price": 1288,
+          "qty": 1,
+          "total": 1288,
+          "id": 1
+        }
+      ],
+      "id": 11
+    },
+    {
+      "userid": null,
+      "Paymentmode": "COD",
+      "paymentstatus": "panding",
+      "orderstatus": "order is placed",
+      "subtotal": 1288,
+      "shipping": 0,
+      "total": 1288,
+      "products": [
+        {
+          "userid": "2",
+          "productid": 16,
+          "name": "Male Jeans Regular Fit",
+          "brand": "Adidas",
+          "color": "Blue",
+          "size": "34",
+          "pic": "p44.jpg",
+          "price": 1288,
+          "qty": 1,
+          "total": 1288,
+          "id": 1
+        }
+      ],
+      "id": 12
+    },
+    {
+      "userid": null,
+      "Paymentmode": "COD",
+      "paymentstatus": "panding",
+      "orderstatus": "order is placed",
+      "subtotal": 6725,
+      "shipping": 0,
+      "total": 6725,
+      "products": [
+        {
+          "userid": "2",
+          "productid": 17,
+          "name": "Male Jeans Ripped",
+          "brand": "Adidas",
+          "color": "Black",
+          "size": "32",
+          "pic": "p41.jpg",
+          "price": 4925,
+          "qty": 1,
+          "total": 4925,
+          "id": 2
+        },
+        {
+          "userid": "2",
+          "productid": 5,
+          "name": "Male Tshirt Polo",
+          "brand": "Polo",
+          "color": "White",
+          "size": "MD",
+          "pic": "p2.jpg",
+          "price": 900,
+          "qty": 2,
+          "total": 1800,
+          "id": 3
+        }
+      ],
+      "id": 13
+    }
+  ],
+  "newslatter": [
+    {
+      "id": 0
+    }
+  ],
+  "contact": [
+    {
+      "id": 0
+    }
+  ]
+}
